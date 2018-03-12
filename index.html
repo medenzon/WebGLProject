@@ -36,7 +36,7 @@
 		scene.add(light2);
 
 		var mesh = null;
-		var loadShape = new THREE.JSONLoader().load("wordmark.js", function(geometry, materials){
+		var loadShape = new THREE.JSONLoader().load("model.js", function(geometry, materials){
 		  var material = new THREE.MultiMaterial(materials);
 		  mesh = new THREE.Mesh(geometry, material);
 		  scene.add(mesh);
